@@ -13,7 +13,7 @@ cd binutils-build
     --enable-plugins \
     --disable-nls \
     --enable-lto \
-    --with-build-sysroot=/usr/arm-frc${V_YEAR}-linux-gnueabi
+    --with-build-sysroot=/usr/local/arm-frc${V_YEAR}-linux-gnueabi
 make
 DESTDIR=$PWD/../binutils-install make install
 cd ../binutils-install

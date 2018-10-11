@@ -62,7 +62,7 @@ cd gcc-build
     --with-sysroot=/frc${V_YEAR}/roborio \
     --enable-poison-system-directories \
     --disable-libmudflap \
-    --with-build-sysroot=/usr/arm-frc${V_YEAR}-linux-gnueabi \
+    --with-build-sysroot=/usr/local/arm-frc${V_YEAR}-linux-gnueabi \
     --libdir=/frc${V_YEAR}/roborio/usr/lib \
     --with-gxx-include-dir=/frc${V_YEAR}/roborio/usr/include/c++/6.3.0 \
     || exit $?
